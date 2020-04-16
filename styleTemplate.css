@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+:root {
+   --primary-color: rgb(115, 21, 223);
+   --primary-color-darker: rgb(51, 9, 100);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+h2.calcule {
+    padding-top: 270px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: fuchsia;
+    padding: 20px;
+}
+
+.coluna1{
+    float:left; 
+    width: 50%;
+}
+.coluna2{
+    float:left;
+    width: 50%;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 24px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: var(--primary-color-darker);
+}
+
+form button:active {
+    background: palevioletred;
+}
