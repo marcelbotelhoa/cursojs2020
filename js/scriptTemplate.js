@@ -35,7 +35,7 @@ function recebeEventoForm(evento) {
 
     let resultados = `Seu IMC é ${result.toFixed(2)} ${mostrar}`;
 
-    resultado.innerHTML += resultados;
+    resultado.innerHTML = resultados;
 
 };
 form.addEventListener('submit', recebeEventoForm);

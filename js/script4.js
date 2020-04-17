@@ -23,7 +23,7 @@ function meuEscopo () {
             Peso: peso.value,
             Altura: altura.value
         };
-
+        
         pessoas.push(juntar)
         
         let resultados = `<p>${nome.value},${sobrenome.value},${peso.value},${altura.value}</p>`;
